@@ -30,4 +30,13 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  
+}
+@layer components {
+  .icon-board {
+    @apply w-1/4 h-20 flex items-center px-4 py-2 rounded-xl border border-gray-700 bg-gradient-to-r from-slate-900 to-slate-800
+  }
+  .up-down {
+    @apply flex max-w-60 min-w-60 h-20 items-center justify-center rounded-xl px-4 border border-gray-700 bg-gradient-to-r from-slate-900 to-slate-800
+  }
 }
